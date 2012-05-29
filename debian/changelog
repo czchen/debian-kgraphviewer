@@ -1,0 +1,202 @@
+kgraphviewer (4:2.1.1-0ubuntu2) quantal; urgency=low
+
+  * Build with boost1.49
+
+ -- Scott Kitterman <scott@kitterman.com>  Tue, 29 May 2012 09:53:15 -0400
+
+kgraphviewer (4:2.1.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+    - Remove debian/patches/doctype_version.patch (incorporated upstream)
+  * Build with boost1.46
+  * Update debian/rules to match current KDE package best practices
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 05 Aug 2011 18:04:53 -0400
+
+kgraphviewer (4:2.0.2-kde4.4.0-0ubuntu4) natty; urgency=low
+
+  * Build with boost1.42
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 16 Oct 2010 14:01:50 -0400
+
+kgraphviewer (4:2.0.2-kde4.4.0-0ubuntu3) maverick; urgency=low
+
+  * Bump the doctype version to 4.2 in all index.docbook (fixes FTBFS). 
+
+ -- Michael Bienia <geser@ubuntu.com>  Mon, 09 Aug 2010 19:09:13 +0200
+
+kgraphviewer (4:2.0.2-kde4.4.0-0ubuntu2) maverick; urgency=low
+
+  * Rebuild for new graphviz package name changes.
+  * debian/control: Add graphviz to depends. (LP: #432356)
+
+ -- Andreas Wenning <awen@awen.dk>  Sun, 23 May 2010 20:42:28 +0200
+
+kgraphviewer (4:2.0.2-kde4.4.0-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+    - Bump compat to 7
+    - Bump build-depends and Standards-version
+    - Source format 3.0
+    - Build againsta libphonon-dev
+    - Drop cdbs
+    - Build with dh --with kde in rules
+    - Add pkg-kde-tools to build-depends
+    - Drop debian/patches went to upstream
+    - Add ${misc:Depends} to depends
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Fri, 12 Feb 2010 22:41:08 +0100
+
+kgraphviewer (4:2.0.2-kde4.3.0-0ubuntu4) lucid; urgency=low
+
+  * Build with boost 1.40.
+
+ -- Michał Zając <michal.zajac@gmail.com>  Thu, 17 Dec 2009 16:56:59 +0100
+
+kgraphviewer (4:2.0.2-kde4.3.0-0ubuntu3) karmic; urgency=low
+
+  * Correct build-dep on libgraphviz-dev to actually be libgraphviz-dev
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 20 Aug 2009 11:25:25 -0400
+
+kgraphviewer (4:2.0.2-kde4.3.0-0ubuntu2) karmic; urgency=low
+
+  * Build using kde.mk from pkg-kde-tools
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Aug 2009 15:28:18 +0100
+
+kgraphviewer (4:2.0.2-kde4.3.0-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+  * Add build-dep on libgraphviz-dev
+  * Build with boost 1.38
+  * Add patch kubuntu_01_convert_string.diff, keeps GCC happy
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Aug 2009 15:01:51 +0100
+
+kgraphviewer (4:2.0.2-kde4.2.0-0ubuntu3) karmic; urgency=low
+
+  * use boost 1.85
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Aug 2009 14:50:13 +0100
+
+kgraphviewer (4:2.0.2-kde4.2.0-0ubuntu2) jaunty; urgency=low
+
+  * Drop kgraphviewer-kde4 transitional package
+    - Remove from debian/control
+    - Remove debian/kgraphviewer.install
+  * Change build-dep on libboost-dev to libboost1.35-dev for the boost1.35
+    transition
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 04 Feb 2009 00:52:09 -0500
+
+kgraphviewer (4:2.0.2-kde4.2.0-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Tue, 27 Jan 2009 22:30:48 -0500
+
+kgraphviewer (4:2.0.2-kde4.1.2-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release
+
+ -- Guillaume Martres <smarter@ubuntu.com>  Sat, 27 Sep 2008 17:02:43 +0200
+
+kgraphviewer (4:2.0.2-kde4.1.1-0ubuntu2) intrepid; urgency=low
+
+  * Updated rules, rebuild with new kdelibs
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Wed, 03 Sep 2008 10:29:45 -0400
+
+kgraphviewer (4:2.0.2-kde4.1.1-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release
+  * Removed debian/cdbs dir, using cdbs kde4.mk
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Sat, 30 Aug 2008 21:38:37 -0400
+
+kgraphviewer (4:2.0.2-kde4.1.0-0ubuntu2) intrepid; urgency=low
+
+  * Added kgraphviewer.install file
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Thu, 31 Jul 2008 23:00:24 -0400
+
+kgraphviewer (4:2.0.2-kde4.1.0-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release, 4.1 final
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Sat, 26 Jul 2008 21:30:45 -0400
+
+kgraphviewer (4:2.0.2-kde4.0.98-0ubuntu3) intrepid; urgency=low
+
+  * Added epoch version 4 to maintain upstream versions
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Tue, 15 Jul 2008 22:25:41 -0400
+
+kgraphviewer (2.0.2-kde4.0.98-0ubuntu2) intrepid; urgency=low
+
+  * Add transitional package kgraphviewer-kde4 -> kgraphviewer
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Mon, 14 Jul 2008 22:01:01 -0400
+
+kgraphviewer (2.0.2-kde4.0.98-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release (LP: #248548)
+  * debian/control: added Replaces: kgraphviewer-kde4
+  * bumped standards version to 3.8.0
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Mon, 14 Jul 2008 18:44:36 -0400
+
+kgraphviewer (2.0.2-kde4.0.83-0ubuntu1) intrepid; urgency=low
+
+  * New upstream version
+
+ -- Richard Birnie <Arbyuk@googlemail.com>  Fri, 27 Jun 2008 07:19:31 +0000
+
+kgraphviewer (2.0.2kde4.0.80-0ubuntu1) intrepid; urgency=low
+
+  * New minor upstream release
+  * Dropped -kde4 from package name
+  * Dropped creation of binary wrapper from debian/rules
+
+ -- Richard Birnie <Arbyuk@googlemail.com>  Tue, 10 Jun 2008 20:25:32 +0100
+
+kgraphviewer-kde4 (4:2.0-0ubuntu2) hardy; urgency=low
+
+  * New minor upstream release
+
+ -- Richard A. Johnson <nixternal@kubuntu.org>  Mon, 03 Mar 2008 17:29:20 -0600
+
+kgraphviewer-kde4 (4:2.0-0ubuntu1) hardy; urgency=low
+
+  * New upstream release
+  * Updated kde.mk
+  * Bumped kdelibs5-dev and kdepimlibs5-dev deps to 4:4.0.1
+
+ -- Richard A. Johnson <nixternal@kubuntu.org>  Mon, 04 Feb 2008 17:37:22 -0600
+
+kgraphviewer-kde4 (4.0.0-0ubuntu1) hardy; urgency=low
+
+  * Initial release for Ubuntu, merge from Debian, Ubuntu changes are:
+    - cdbs/kde.mk: updated installation locations and removed rpath
+    - debian/control: updated Maintainer according to Ubuntu specs
+    - debian/control: renamed package to kgraphviewer-kde4
+    - debian/control: added homepage
+    - debian/control: added kdepimlibs5-dev and libphonon-dev to build-deps
+    - debian/rules: added KDE 4 magic foo
+  * New upstream release
+
+ -- Richard A. Johnson <nixternal@kubuntu.org>  Wed, 09 Jan 2008 22:40:24 -0600
+
+kgraphviewer (3.97.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Build depend on kdebase-workspace-dev >= 4:3.97.0.
+  * Update installed files.
+  * Add new package extragear-plasma-l10n for localization files.
+  * Remove dependency on sharutils. Not needed anymore.
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
+    happier.
+  * Update Standards-Version to 3.7.3.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Sat, 08 Dec 2007 00:05:24 +0000

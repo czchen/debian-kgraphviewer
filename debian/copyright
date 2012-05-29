@@ -1,0 +1,29 @@
+Package was debianized by Debian Qt/KDE Team at Extremadura meeting december 2007
+
+Upstream Author:
+	Gael de Chalendar <kleag@free.fr>
+
+Copyright holders:
+	Copyright (C) 2005-2007 Gael de Chalendar <kleag@free.fr>
+	Copyright (C) 2005 Jaroslaw Staniek <js@iidea.pl>
+
+Files in this package is under GPLv2:
+
+   KGraphViewer is free software; you can redistribute it and/or
+   modify it under the terms of the GNU General Public
+   License as published by the Free Software Foundation, version 2.
+
+   This program is distributed in the hope that it will be useful, 
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   General Public License for more details. 
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software     
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  
+   02110-1301, USA 
+
+On Debian Systems, the full text of the GPL2 license can be found in
+/usr/share/common-licenses/GPL-2
+
+Debian packaging is under any license and made by Debian Qt/KDE Team.
