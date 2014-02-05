@@ -1,0 +1,1422 @@
+# Translation of kgraphviewer into Japanese.
+# This file is distributed under the same license as the kgraphviewer package.
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2006, 2007, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kgraphviewer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-11-08 06:19+0100\n"
+"PO-Revision-Date: 2009-02-25 00:07+0900\n"
+"Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
+"Language-Team: Japanese <Kdeveloper@kde.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: kgrapheditorConfigDialog.cpp:65 kgraphviewerConfigDialog.cpp:73
+msgid "Parsing"
+msgstr ""
+
+#: kgrapheditorConfigDialog.cpp:66 kgraphviewerConfigDialog.cpp:74
+msgid "Reloading"
+msgstr "再読み込み"
+
+#: kgrapheditorConfigDialog.cpp:67 kgraphviewerConfigDialog.cpp:75
+msgid "Opening"
+msgstr "開く"
+
+#: kgrapheditorConfigDialog.cpp:68 kgraphviewerConfigDialog.cpp:76
+msgid "Session Management"
+msgstr "セッションの管理"
+
+#: kgrapheditor.cpp:148
+#, fuzzy
+#| msgid "Do you want to reload files from previous session ?"
+msgid "Do you want to reload files from previous session?"
+msgstr "前回のセッションのファイルを再読み込みしますか？"
+
+#: kgrapheditor.cpp:149 kgraphviewer.cpp:122
+#, fuzzy
+#| msgid "Session Management"
+msgid "Session Restore"
+msgstr "セッションの管理"
+
+#: kgrapheditor.cpp:243
+msgid "Create a New Vertex"
+msgstr "新しい頂点を作成"
+
+#: kgrapheditor.cpp:248
+msgid "Create a New Edge"
+msgstr "新しいエッジを作成"
+
+#: kgrapheditor.cpp:518
+msgid "Save current graph to..."
+msgstr "現在のグラフを保存..."
+
+#: KGraphEditorElementTreeWidget.cpp:51 KGraphEditorNodesTreeWidget.cpp:56
+msgid "Add a new attribute"
+msgstr "新しい属性を追加"
+
+#: KGraphEditorElementTreeWidget.cpp:58 KGraphEditorNodesTreeWidget.cpp:63
+msgid "Remove this attribute"
+msgstr "この属性を削除"
+
+#: kgrapheditormain.cpp:40 main.cpp:38
+msgid "A Graphviz dot graph viewer for KDE"
+msgstr "KDE のための Graphviz DOT グラフビューア"
+
+#: kgrapheditormain.cpp:46
+msgid "KGraphEditor"
+msgstr "KGraphEditor"
+
+#: kgrapheditormain.cpp:47 main.cpp:45
+#, fuzzy
+#| msgid "(C) 2005-2006 Gaël de Chalendar"
+msgid "(C) 2005-2010 Gaël de Chalendar"
+msgstr "(C) 2005-2006 Gaël de Chalendar"
+
+#: kgrapheditormain.cpp:48 main.cpp:46
+msgid "Gaël de Chalendar"
+msgstr "Gaël de Chalendar"
+
+#: kgrapheditormain.cpp:52 main.cpp:55
+msgid "Dot graph to open"
+msgstr "開く DOT グラフ"
+
+#: kgrapheditormain.cpp:84
+msgid ""
+"A KGraphEditor window is already open, where do you want to open this file?"
+msgstr ""
+
+#: kgrapheditormain.cpp:85 main.cpp:88
+msgid "Opening in new window confirmation"
+msgstr "確認 - 新しいウィンドウで開く"
+
+#: kgrapheditormain.cpp:86 main.cpp:89
+#, fuzzy
+#| msgid "Open in existing window"
+msgctxt "Where to open a file"
+msgid "Existing window"
+msgstr "既存のウィンドウで開く"
+
+#: kgrapheditormain.cpp:87 main.cpp:90
+msgctxt "Where to open a file"
+msgid "New window"
+msgstr ""
+
+#: KGraphEditorNodesTreeWidget.cpp:69
+msgid "Remove this node"
+msgstr "このノードを削除"
+
+#: kgraphviewerConfigDialog.cpp:72
+msgid "Appearance"
+msgstr ""
+
+#: kgraphviewer.cpp:121
+#, fuzzy
+#| msgid "Do you want to reload files from previous session ?"
+msgid "Do you want to reload files from the previous session?"
+msgstr "前回のセッションのファイルを再読み込みしますか？"
+
+#: kgraphviewer.cpp:180
+#, fuzzy
+#| msgid "Could not find our part."
+msgid "Could not find the KGraphViewer part."
+msgstr "必要なコンポーネントが見つかりませんでした。"
+
+#: kgraphviewer.cpp:215
+#, fuzzy
+#| msgid "Open the print preview window"
+msgid "Opens a new empty KGraphViewer window."
+msgstr "印刷プレビューウィンドウを開きます"
+
+#: kgraphviewer.cpp:218
+msgid "Shows the file open dialog to choose a GraphViz dot file to open."
+msgstr ""
+
+#: kgraphviewer.cpp:222
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr ""
+"ここに最近開いたファイルが表示されます。同じファイルをもう一度開くときに役立"
+"ちます。"
+
+#: kgraphviewer.cpp:228
+#, fuzzy
+#| msgid "KGraphViewer"
+msgid "Quits KGraphViewer."
+msgstr "KGraphViewer"
+
+#: kgraphviewer.cpp:231
+msgid "Shows or hides the status bar."
+msgstr ""
+
+#: kgraphviewer.cpp:234
+msgid "Configure the bindings between keys and actions."
+msgstr ""
+
+#: kgraphviewer.cpp:237
+#, fuzzy
+#| msgid "Reload Confirmation"
+msgid "Toolbar configuration."
+msgstr "再読み込みの確認"
+
+#: kgraphviewer.cpp:240
+msgid "Main KGraphViewer configuration options."
+msgstr ""
+
+#: main.cpp:44
+msgid "KGraphViewer"
+msgstr "KGraphViewer"
+
+#: main.cpp:46
+msgid "Original Author and current maintainer"
+msgstr ""
+
+#: main.cpp:47
+msgid "Reimar Döffinger"
+msgstr ""
+
+#: main.cpp:47 main.cpp:48 main.cpp:49 main.cpp:50
+msgid "Contributor"
+msgstr ""
+
+#: main.cpp:48
+msgid "Matthias Peinhardt"
+msgstr ""
+
+#: main.cpp:49
+msgid "Sandro Andrade"
+msgstr ""
+
+#: main.cpp:50
+msgid "Milian Wolff"
+msgstr ""
+
+#: main.cpp:87
+msgid ""
+"A KGraphViewer window is already open, where do you want to open this file?"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Yukiko Bando"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ybando@k6.dion.ne.jp"
+
+#. i18n: file: kgrapheditorsettings.kcfg:7
+#. i18n: ectx: label, entry (reloadOnChangeMode), group (Notification Messages)
+#. i18n: file: kgraphviewersettings.kcfg:7
+#. i18n: ectx: label, entry (reloadOnChangeMode), group (Notification Messages)
+#: rc.cpp:5 rc.cpp:47
+msgid "The answer to the question 'File modified, do you want to reload it'"
+msgstr "「ファイルは変更されています。再読み込みしますか？」に対する答え"
+
+#. i18n: file: kgrapheditorsettings.kcfg:11
+#. i18n: ectx: label, entry (parsingMode), group (Notification Messages)
+#. i18n: file: kgraphviewersettings.kcfg:11
+#. i18n: ectx: label, entry (parsingMode), group (Notification Messages)
+#: rc.cpp:8 rc.cpp:50
+msgid ""
+"To choose whether to parse using an external command (usually dot) or the "
+"graphviz library"
+msgstr ""
+
+#. i18n: file: kgrapheditorsettings.kcfg:15
+#. i18n: ectx: label, entry (openInExistingWindowMode), group (Notification Messages)
+#. i18n: file: kgraphviewersettings.kcfg:15
+#. i18n: ectx: label, entry (openInExistingWindowMode), group (Notification Messages)
+#: rc.cpp:11 rc.cpp:53
+msgid ""
+"The answer to the question 'If another window already exist when launching "
+"kgraphviewer, should we open in it, open a new window or ask ?'"
+msgstr ""
+"「kgraphviewer を起動したときに既に他のウィンドウが存在する場合、その中に開く"
+"か、新しいウィンドウに開くか、確認するか」に対する答え"
+
+#. i18n: file: kgrapheditorsettings.kcfg:19
+#. i18n: ectx: label, entry (reopenPreviouslyOpenedFilesMode), group (Notification Messages)
+#: rc.cpp:14
+msgid ""
+"The answer to the question 'Should the files that were opened in previous "
+"sessions be reopened at startup ?'"
+msgstr ""
+"「起動時に前回のセッションで開かれたファイルを開きますか？」に対する答え"
+
+#. i18n: file: kgrapheditorsettings.kcfg:23
+#. i18n: ectx: label, entry (birdsEyeViewEnabled), group (Notification Messages)
+#. i18n: file: kgraphviewersettings.kcfg:23
+#. i18n: ectx: label, entry (birdsEyeViewEnabled), group (Notification Messages)
+#. i18n: file: part/kgraphviewer_partsettings.kcfg:9
+#. i18n: ectx: label, entry (birdsEyeViewEnabled), group (Notification Messages)
+#: rc.cpp:17 rc.cpp:59 rc.cpp:122
+msgid "If true, the bird's eye view will be shown if needed."
+msgstr "真 (true) の場合、必要であれば概観図が表示されます。"
+
+#. i18n: file: kgrapheditorsettings.kcfg:27
+#. i18n: ectx: label, entry (PreviouslyOpenedFiles), group (Notification Messages)
+#. i18n: file: kgraphviewersettings.kcfg:27
+#. i18n: ectx: label, entry (PreviouslyOpenedFiles), group (Notification Messages)
+#: rc.cpp:20 rc.cpp:62
+msgid "The list of files that were opened in past instances of kgraphviewer"
+msgstr "以前の KGraphViewer インスタンスで開かれたファイルのリスト"
+
+#. i18n: file: kgrapheditorui.rc:4
+#. i18n: ectx: Menu (file)
+#. i18n: file: kgraphviewerui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:23 rc.cpp:68
+msgid "&File"
+msgstr "ファイル(&F)"
+
+#. i18n: file: kgrapheditorui.rc:14
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:26
+msgid "&Edit"
+msgstr "編集(&E)"
+
+#. i18n: file: kgrapheditorui.rc:19
+#. i18n: ectx: Menu (view)
+#. i18n: file: kgraphviewerui.rc:12
+#. i18n: ectx: Menu (view)
+#: rc.cpp:29 rc.cpp:71
+msgid "&View"
+msgstr "表示(&V)"
+
+#. i18n: file: kgrapheditorui.rc:22
+#. i18n: ectx: Menu (settings)
+#. i18n: file: kgraphviewerui.rc:15
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:32 rc.cpp:74
+msgid "&Settings"
+msgstr "設定(&S)"
+
+#. i18n: file: kgrapheditorui.rc:34
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: kgraphviewerui.rc:27
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:35 rc.cpp:77
+msgid "Main Toolbar"
+msgstr "メインツールバー"
+
+#. i18n: file: kgrapheditorui.rc:41
+#. i18n: ectx: ToolBar (viewToolBar)
+#. i18n: file: kgraphviewerui.rc:32
+#. i18n: ectx: ToolBar (viewToolBar)
+#: rc.cpp:38 rc.cpp:80
+msgid "View Toolbar"
+msgstr "ビューツールバー"
+
+#. i18n: file: kgrapheditorui.rc:44
+#. i18n: ectx: ToolBar (helpToolBar)
+#. i18n: file: kgraphviewerui.rc:35
+#. i18n: ectx: ToolBar (helpToolBar)
+#: rc.cpp:41 rc.cpp:83
+msgid "Help Toolbar"
+msgstr "ヘルプツールバー"
+
+#. i18n: file: kgrapheditorui.rc:49
+#. i18n: ectx: ToolBar (editToolBar)
+#: rc.cpp:44
+msgid "Edit Toolbar"
+msgstr "編集ツールバー"
+
+#. i18n: file: kgraphviewersettings.kcfg:19
+#. i18n: ectx: label, entry (reopenPreviouslyOpenedFilesMode), group (Notification Messages)
+#: rc.cpp:56
+msgid ""
+"The answer to the question 'Should the files that where opened in previous "
+"sessions be reopened at startup ?'"
+msgstr ""
+"「起動時に前回のセッションで開かれたファイルを開きますか？」に対する答え"
+
+#. i18n: file: kgraphviewersettings.kcfg:32
+#. i18n: ectx: label, entry (backgroundColor), group (Appearance)
+#: rc.cpp:65
+msgid "Background color of the graph view."
+msgstr ""
+
+#. i18n: file: part/KgvPageLayoutColumnsBase.ui:29
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:86
+msgid "Columns:"
+msgstr "列:"
+
+#. i18n: file: part/KgvPageLayoutColumnsBase.ui:39
+#. i18n: ectx: property (text), widget (QLabel, labelSpacing)
+#: rc.cpp:89
+msgid "Column spacing:"
+msgstr "列の間隔:"
+
+#. i18n: file: part/KgvPageLayoutHeaderBase.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:92
+msgid "Header"
+msgstr "ヘッダ"
+
+#. i18n: file: part/KgvPageLayoutHeaderBase.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, rhFirst)
+#: rc.cpp:95
+msgid "Different header for the first page"
+msgstr "最初のページには異なるヘッダ"
+
+#. i18n: file: part/KgvPageLayoutHeaderBase.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, rhEvenOdd)
+#: rc.cpp:98
+msgid "Different header for even and odd pages"
+msgstr "偶数ページと奇数ページに異なるヘッダ"
+
+#. i18n: file: part/KgvPageLayoutHeaderBase.ui:60
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:101
+msgid "Spacing between header and body:"
+msgstr "ヘッダと本体の間隔:"
+
+#. i18n: file: part/KgvPageLayoutHeaderBase.ui:82
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:104
+msgid "Footer"
+msgstr "フッタ"
+
+#. i18n: file: part/KgvPageLayoutHeaderBase.ui:88
+#. i18n: ectx: property (text), widget (QCheckBox, rfFirst)
+#: rc.cpp:107
+msgid "Different footer for the first page"
+msgstr "最初のページには異なるフッタ"
+
+#. i18n: file: part/KgvPageLayoutHeaderBase.ui:95
+#. i18n: ectx: property (text), widget (QCheckBox, rfEvenOdd)
+#: rc.cpp:110
+msgid "Different footer for even and odd pages"
+msgstr "偶数ページと奇数ページに異なるフッタ"
+
+#. i18n: file: part/KgvPageLayoutHeaderBase.ui:123
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:113
+msgid "Spacing between footer and body:"
+msgstr "フッタと本体の間隔:"
+
+#. i18n: file: part/KgvPageLayoutHeaderBase.ui:145
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:116
+msgid "Footnote/Endnote"
+msgstr "脚注/巻末注"
+
+#. i18n: file: part/KgvPageLayoutHeaderBase.ui:167
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:119
+msgid "Spacing between footnote and body:"
+msgstr "脚注と本体の間隔:"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:36
+#. i18n: ectx: property (windowTitle), widget (QWidget, KGVSimplePrintingPageSetupBase)
+#: rc.cpp:125
+msgid "."
+msgstr "."
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:140
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:128
+msgid "Page &font:"
+msgstr "ページのフォント(&F):"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:201
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:131
+msgid "Page Size && Margins"
+msgstr "ページサイズと余白"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:257
+#. i18n: ectx: property (text), widget (QCheckBox, addTableBordersCheckbox)
+#: rc.cpp:134
+msgid "Add &borders"
+msgstr "枠線を追加する(&B)"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:264
+#. i18n: ectx: property (text), widget (QCheckBox, addDateTimeCheckbox)
+#: rc.cpp:137
+msgid "Add date and time"
+msgstr "日付と時刻を追加する"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:290
+#. i18n: ectx: property (text), widget (QCheckBox, addPageNumbersCheckbox)
+#: rc.cpp:140
+msgid "Add page numbers"
+msgstr "ページ番号を追加する"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:314
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: rc.cpp:143
+msgid "Number of pages to fit on"
+msgstr "何ページに印刷するか"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:365
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:146
+#, fuzzy
+#| msgid "Horizontaly"
+msgid "Horizontally"
+msgstr "水平方向"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:382
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:149
+#, fuzzy
+#| msgid "Verticaly"
+msgid "Vertically"
+msgstr "垂直方向"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:417
+#. i18n: ectx: property (text), widget (QRadioButton, naturalSizeRadioButton)
+#: rc.cpp:152
+msgid "Natural size"
+msgstr "本来のサイズ"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:424
+#. i18n: ectx: property (text), widget (QRadioButton, fitToOnePageRadioButton)
+#: rc.cpp:155
+msgid "Fit to one page"
+msgstr "単一ページに印刷"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:431
+#. i18n: ectx: property (text), widget (QRadioButton, fitToSeveralPagesRadioButton)
+#: rc.cpp:158
+msgid "Fit to several pages"
+msgstr "複数ページに印刷"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:459
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: rc.cpp:161
+msgid "Related actions:"
+msgstr "関連するアクション:"
+
+#. i18n: file: part/simpleprintingpagesetupbase.ui:531
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: rc.cpp:164
+msgid "Close"
+msgstr "閉じる"
+
+#. i18n: file: preferencesAppearance.ui:44
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:167
+msgid "Default background color:"
+msgstr ""
+
+#. i18n: file: preferencesAppearance.ui:85
+#. i18n: ectx: property (html), widget (QTextEdit, textEdit)
+#: rc.cpp:170
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Note:</span> this will be overriden if the graph has its own "
+"background color</p></body></html>"
+msgstr ""
+
+#. i18n: file: preferencesOpenInExistingWindow.ui:41
+#. i18n: ectx: property (title), widget (QGroupBox, openInExistingWindowMode)
+#: rc.cpp:177
+msgid "Open in existing window"
+msgstr "既存のウィンドウで開く"
+
+#. i18n: file: preferencesOpenInExistingWindow.ui:53
+#. i18n: ectx: property (text), widget (QRadioButton, yes)
+#. i18n: file: preferencesReload.ui:56
+#. i18n: ectx: property (text), widget (QRadioButton, yes)
+#. i18n: file: preferencesReopenPreviouslyOpenedFiles.ui:78
+#. i18n: ectx: property (text), widget (QRadioButton, yes)
+#: rc.cpp:180 rc.cpp:201 rc.cpp:216
+msgid "&Yes"
+msgstr "はい(&Y)"
+
+#. i18n: file: preferencesOpenInExistingWindow.ui:66
+#. i18n: ectx: property (text), widget (QRadioButton, no)
+#. i18n: file: preferencesReload.ui:69
+#. i18n: ectx: property (text), widget (QRadioButton, no)
+#. i18n: file: preferencesReopenPreviouslyOpenedFiles.ui:62
+#. i18n: ectx: property (text), widget (QRadioButton, no)
+#: rc.cpp:183 rc.cpp:204 rc.cpp:213
+msgid "No"
+msgstr "いいえ"
+
+#. i18n: file: preferencesOpenInExistingWindow.ui:82
+#. i18n: ectx: property (text), widget (QRadioButton, ask)
+#. i18n: file: preferencesReopenPreviouslyOpenedFiles.ui:91
+#. i18n: ectx: property (text), widget (QRadioButton, ask)
+#: rc.cpp:186 rc.cpp:219
+msgid "As&k"
+msgstr "確認する(&K)"
+
+#. i18n: file: preferencesParsing.ui:35
+#. i18n: ectx: property (title), widget (QGroupBox, parsingMode)
+#: rc.cpp:189
+msgid "Parse using:"
+msgstr ""
+
+#. i18n: file: preferencesParsing.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, external)
+#: rc.cpp:192
+msgid "&External command"
+msgstr ""
+
+#. i18n: file: preferencesParsing.ui:63
+#. i18n: ectx: property (text), widget (QRadioButton, internal)
+#: rc.cpp:195
+msgid "Internal library"
+msgstr ""
+
+#. i18n: file: preferencesReload.ui:41
+#. i18n: ectx: property (title), widget (QGroupBox, reloadOnChangeMode)
+#: rc.cpp:198
+msgid "Reload files modified on disk"
+msgstr "ディスク上で変更されたファイルを再読み込みする"
+
+#. i18n: file: preferencesReload.ui:85
+#. i18n: ectx: property (text), widget (QRadioButton, ask)
+#: rc.cpp:207
+msgid "Ask"
+msgstr "確認する"
+
+#. i18n: file: preferencesReopenPreviouslyOpenedFiles.ui:41
+#. i18n: ectx: property (title), widget (QGroupBox, reopenPreviouslyOpenedFilesMode)
+#: rc.cpp:210
+msgid "Reopen previously opened files"
+msgstr "前回開いたファイルを開く"
+
+#: part/canvasedge.cpp:69
+#, kde-format
+msgid ""
+"%1 -> %2\n"
+"label='%3'"
+msgstr ""
+"%1 -> %2\n"
+"ラベル=“%3”"
+
+#: part/canvasedge.cpp:74
+msgid "Remove selected edge(s)"
+msgstr "選択したエッジを削除"
+
+#: part/canvaselement.cpp:92
+msgid "Remove selected element(s)"
+msgstr "選択した要素を削除"
+
+#: part/canvasnode.cpp:69
+#, kde-format
+msgid ""
+"id='%1'\n"
+"label='%2'"
+msgstr ""
+"ID=“%1”\n"
+"ラベル=“%2”"
+
+#: part/dotgraph.cpp:275
+#, kde-format
+msgid "Unable to start %1."
+msgstr "%1 を開始できません。"
+
+#: part/dotgraph.cpp:275 part/dotgraph.cpp:278 part/dotgraph.cpp:281
+#: part/dotgraph.cpp:284 part/dotgraph.cpp:287 part/dotgraph.cpp:290
+msgid "Layout process failed"
+msgstr "レイアウトプロセスが失敗しました"
+
+#: part/dotgraph.cpp:278
+#, kde-format
+msgid "%1 crashed."
+msgstr "%1 がクラッシュしました。"
+
+#: part/dotgraph.cpp:281
+#, kde-format
+msgid "%1 timed out."
+msgstr "%1 がタイムアウトしました。"
+
+#: part/dotgraph.cpp:284
+#, kde-format
+msgid "Was not able to write data to the %1 process."
+msgstr "%1 プロセスにデータを書き込めませんでした。"
+
+#: part/dotgraph.cpp:287
+#, kde-format
+msgid "Was not able to read data from the %1 process."
+msgstr "%1 プロセスからデータを読み取れませんでした。"
+
+#: part/dotgraph.cpp:290
+#, kde-format
+msgid "Unknown error running %1."
+msgstr "%1 の実行で未知のエラーが発生しました。"
+
+#: part/dotgraphview.cpp:415
+msgid "Select Layout Algo"
+msgstr "レイアウトアルゴリズムを選択"
+
+#: part/dotgraphview.cpp:419
+msgid " "
+msgstr " "
+
+#: part/dotgraphview.cpp:420 part/dotgraphview.cpp:471
+msgid ""
+"Specify yourself the layout command to use. Given a dot file, it should "
+"produce an xdot file on its standard output."
+msgstr ""
+"使用するレイアウトコマンドを自分で指定します。DOT ファイルの場合は、標準出力"
+"に xdot ファイルを生成しなければなりません。"
+
+#: part/dotgraphview.cpp:424
+msgid "Dot"
+msgstr "Dot"
+
+#: part/dotgraphview.cpp:425
+msgid "Layout the graph using the dot program."
+msgstr "dot プログラムを使ってグラフをレイアウトします。"
+
+#: part/dotgraphview.cpp:429
+msgid "Neato"
+msgstr "Neato"
+
+#: part/dotgraphview.cpp:430
+msgid "Layout the graph using the neato program."
+msgstr "neato プログラムを使ってグラフをレイアウトします。"
+
+#: part/dotgraphview.cpp:434
+msgid "Twopi"
+msgstr "Twopi"
+
+#: part/dotgraphview.cpp:435
+msgid "Layout the graph using the twopi program."
+msgstr "twopi プログラムを使ってグラフをレイアウトします。"
+
+#: part/dotgraphview.cpp:439
+msgid "Fdp"
+msgstr "Fdp"
+
+#: part/dotgraphview.cpp:440
+msgid "Layout the graph using the fdp program."
+msgstr "fdp プログラムを使ってグラフをレイアウトします。"
+
+#: part/dotgraphview.cpp:444
+msgid "Circo"
+msgstr "Circo"
+
+#: part/dotgraphview.cpp:445
+msgid "Layout the graph using the circo program."
+msgstr "circo プログラムを使ってグラフをレイアウトします。"
+
+#: part/dotgraphview.cpp:458
+msgid "Choose a GraphViz layout algorithm or edit your own one."
+msgstr "GraphViz レイアウトアルゴリズムを選択するか独自のものを編集します。"
+
+#: part/dotgraphview.cpp:460
+msgid ""
+"Choose a GraphViz layout algorithm or type in your own command that will "
+"generate a graph in the xdot format on its standard output. For example, to "
+"manually specify the <tt>G</tt> option to the dot command, type in: <tt>dot -"
+"Gname=MyGraphName -Txdot </tt>"
+msgstr ""
+"GraphViz レイアウトアルゴリズムを選択するか、標準出力に xdot フォーマットのグ"
+"ラフを生成するあなた独自のコマンドを入力します。例えば、dot コマンドに手動で "
+"<tt>G</tt> オプションを指定するには次のように入力します: <tt>dot -"
+"Gname=MyGraphName -Txdot </tt>"
+
+#: part/dotgraphview.cpp:468
+msgid "Layout"
+msgstr "レイアウト"
+
+#: part/dotgraphview.cpp:470
+msgid "Specify layout command"
+msgstr "レイアウトコマンドを指定"
+
+#: part/dotgraphview.cpp:472
+msgid "Reset layout command to default"
+msgstr "レイアウトコマンドを標準に戻す"
+
+#: part/dotgraphview.cpp:473
+msgid ""
+"Resets the layout command to use to the default depending on the graph type "
+"(directed or not)."
+msgstr ""
+"使用するレイアウトコマンドをグラフのタイプ (有向か無向か) の標準に戻します"
+
+#: part/dotgraphview.cpp:475
+msgid "Zoom In"
+msgstr ""
+
+#: part/dotgraphview.cpp:476
+msgid "Zoom Out"
+msgstr ""
+
+#: part/dotgraphview.cpp:480
+msgid "Export Graph"
+msgstr "グラフをエクスポート"
+
+#: part/dotgraphview.cpp:482
+#, fuzzy
+#| msgid "Allows to export the graph to another format."
+msgid "Allows the graph to be exported in another format."
+msgstr "グラフを他のフォーマットにエクスポートします。"
+
+#: part/dotgraphview.cpp:484
+#, fuzzy
+#| msgid ""
+#| "Use the Export Graph menu to export the graph to another format. There is "
+#| "currently only on export format supported: PNG image."
+msgid ""
+"Use the Export Graph menu to export the graph in another format. There is "
+"currently only one export format supported: as a PNG image."
+msgstr ""
+"グラフを他のフォーマットにエクスポートするには<interface>グラフをエクスポート"
+"</interface>メニューを使います。現在サポートされているのは PNG フォーマットへ"
+"のエクスポートのみです。"
+
+#: part/dotgraphview.cpp:489
+#, fuzzy
+#| msgid "As Image ..."
+msgid "As Image..."
+msgstr "画像として..."
+
+#: part/dotgraphview.cpp:490
+#, fuzzy
+#| msgid "Export the graph to an image (currently PNG only) file."
+msgid "Export the graph to an image file (currently PNG only.)"
+msgstr "グラフを画像ファイルにエクスポートします。(現在は PNG のみ)"
+
+#: part/dotgraphview.cpp:501
+msgid "Enable Bird's-eye View"
+msgstr "概観図を表示する"
+
+#: part/dotgraphview.cpp:504
+msgid "Enables or disables the Bird's-eye View"
+msgstr "概観図の表示/非表示を切り替えます"
+
+#: part/dotgraphview.cpp:512
+msgid "Birds-eye View"
+msgstr "概観図"
+
+#: part/dotgraphview.cpp:513
+#, fuzzy
+#| msgid "Allows to setup the Bird's-eye View."
+msgid "Allows the Bird's-eye View to be setup."
+msgstr "概観図を設定します。"
+
+#: part/dotgraphview.cpp:517
+msgid "Top Left"
+msgstr "左上"
+
+#: part/dotgraphview.cpp:518
+#, fuzzy
+#| msgid "Puts the Bird's-eye View at the top left corner."
+msgid "Puts the Bird's-eye View in the top-left corner."
+msgstr "概観図を左上隅に配置します。"
+
+#: part/dotgraphview.cpp:523
+msgid "Top Right"
+msgstr "右上"
+
+#: part/dotgraphview.cpp:524
+#, fuzzy
+#| msgid "Puts the Bird's-eye View at the top right corner."
+msgid "Puts the Bird's-eye View in the top-right corner."
+msgstr "概観図を右上隅に配置します。"
+
+#: part/dotgraphview.cpp:529
+msgid "Bottom Left"
+msgstr "左下"
+
+#: part/dotgraphview.cpp:530
+#, fuzzy
+#| msgid "Puts the Bird's-eye View at the bottom left corner."
+msgid "Puts the Bird's-eye View in the bottom-left corner."
+msgstr "概観図を左下隅に配置します。"
+
+#: part/dotgraphview.cpp:535
+msgid "Bottom Right"
+msgstr "右下"
+
+#: part/dotgraphview.cpp:536
+#, fuzzy
+#| msgid "Puts the Bird's-eye View at the bottom right corner."
+msgid "Puts the Bird's-eye View in the bottom-right corner."
+msgstr "概観図を右下隅に配置します。"
+
+#: part/dotgraphview.cpp:541
+msgid "Automatic"
+msgstr "自動"
+
+#: part/dotgraphview.cpp:542
+#, fuzzy
+#| msgid "Let's KGraphViewer automaticaly choose the Bird's-eye View position."
+msgid ""
+"Let KGraphViewer automatically choose the position of the Bird's-eye View."
+msgstr "KGraphViewer に概観図の位置を自動的に選択させます。"
+
+#: part/dotgraphview.cpp:629
+#, fuzzy
+#| msgid ""
+#| "<h1>GraphViz dot format graph visualization</h1><p>If the graph is larger "
+#| "than the widget area, an overview panner is shown in one edge. Choose "
+#| "through the context menu if the optimal position of this overview should "
+#| "be automatically computed or put it where you want.</p><h2>How to work "
+#| "with it ?</h2><ul><li>To move the graph, you can:  <ul>    <li>click & "
+#| "drag it</li>    <li>use the elevators</li>    <li>press the arrows keys</"
+#| "li>    <li>click somewhere in the panner view</li>    <li>use the mouse "
+#| "wheel (up and down with no modifier, left and right with the <Alt> key "
+#| "pressed)</li>    <li>or click & drag the panner view</li>  </ul></"
+#| "li><li>To zoom, you can either use the zoom in and zoom out toolbar "
+#| "butons or click on the <Shift> key while rolling your mouse wheel.</"
+#| "li><li>Try the contextual menu (usually by right-clicking) to discover "
+#| "other possibilities.</li><li>Try the <tt>Print preview</tt> or the "
+#| "<tt>Page setup</tt> buttons to explore the printing options.</li></ul>"
+msgid ""
+"<h1>GraphViz dot format graph visualization</h1><p>If the graph is larger "
+"than the widget area, an overview panner is shown in one edge. Choose "
+"through the context menu if the optimal position of this overview should be "
+"automatically computed or put it where you want.</p><h2>How to work with it ?"
+"</h2><ul><li>To move the graph, you can:  <ul>    <li>click & drag it</"
+"li>    <li>use the elevators</li>    <li>press the arrows keys</li>    "
+"<li>click somewhere in the panner view</li>    <li>use the mouse wheel (up "
+"and down with no modifier, left and right with the <Alt> key pressed)</"
+"li>    <li>or click & drag the panner view</li>  </ul></li><li>To zoom, you "
+"can either use the zoom in and zoom out toolbar buttons, or click on the "
+"<Shift> key while rolling your mouse wheel.</li><li>Try the contextual menu "
+"(usually by right-clicking) to discover other possibilities.</li><li>Try the "
+"<tt>Print preview</tt> or the <tt>Page setup</tt> buttons to explore the "
+"printing options.</li></ul>"
+msgstr ""
+"<h1>GraphViz DOT フォーマットグラフの視覚化</h1><p>グラフがウィジェットの領域"
+"より大きい場合、ウィジェットの隅に概観図が表示されます。概観図の表示位置はコ"
+"ンテキストメニューを使って変更できます。最適な位置を自動的に計算させることも"
+"可能です。</p><h2>使い方</h2><ul><li>グラフは以下の方法で動かせます。<ul><li>"
+"グラフをクリックしてドラッグする</li><li>スクロールバーを使う</li><li>矢印"
+"キーを押す</li><li>概観図のどこかをクリックする</li><li>マウスホイールを使う "
+"(修飾キーなしで上下に、Alt キーを押しながら左右に)</li><li>概観図をクリックし"
+"てドラッグ</li></ul></li><li>グラフを拡大/縮小表示するには、ツールバーの"
+"<interface>拡大/縮小</interface>ボタンを使うか、Shift キーを押しながらマウス"
+"ホイールを動かします。</li><li>コンテキストメニュー (通常は右クリックで開く) "
+"にその他のオプションがあります。</li><li>印刷のオプションについては"
+"<interface>印刷プレビュー</interface>または<interface>ページ設定</interface>"
+"ボタンを押してください。</li></ul>"
+
+#: part/dotgraphview.cpp:726
+#, fuzzy
+#| msgid "Dot graph to open"
+msgid "no graph loaded"
+msgstr "開く DOT グラフ"
+
+#: part/dotgraphview.cpp:848 part/dotgraphview.cpp:869
+#, kde-format
+msgid "graph %1 is getting loaded..."
+msgstr ""
+
+#: part/dotgraphview.cpp:857
+#, kde-format
+msgid "error parsing file %1"
+msgstr ""
+
+#: part/dotgraphview.cpp:1606
+#, kde-format
+msgid ""
+"The file %1 has been modified on disk.\n"
+"Do you want to reload it ?"
+msgstr ""
+"ファイル <filename>%1</filename> はディスク上で変更されています。\n"
+"再読み込みしますか？"
+
+#: part/dotgraphview.cpp:1607
+msgid "Reload Confirmation"
+msgstr "再読み込みの確認"
+
+#: part/dotgraphview.cpp:1700
+msgid "Layout Command"
+msgstr "レイアウトコマンド"
+
+#: part/dotgraphview.cpp:1701
+msgid "Type in a layout command for the current graph:"
+msgstr "現在のグラフのレイアウトコマンドを入力:"
+
+#: part/dotgraphview.cpp:1707
+msgid ""
+"Specify here the command that will be used to layout the graph.\n"
+"The command MUST write its results on stdout in xdot format."
+msgstr ""
+"ここにグラフのレイアウトに使用するコマンドを入力します。\n"
+"コマンドはその結果を xdot フォーマットで標準出力に出力しなければなりません。"
+
+#: part/kgraphviewer_part.cpp:111
+msgid "Closes the current tab"
+msgstr "現在のタブを閉じます"
+
+#: part/kgraphviewer_part.cpp:114
+msgid "Print the graph using current page setup settings"
+msgstr "現在のページ設定を使ってグラフを印刷します"
+
+#: part/kgraphviewer_part.cpp:118
+msgid "Open the print preview window"
+msgstr "印刷プレビューウィンドウを開きます"
+
+#: part/kgraphviewer_part.cpp:123
+msgid "Page setup"
+msgstr "ページ設定"
+
+#: part/kgraphviewer_part.cpp:124
+#, fuzzy
+#| msgid ""
+#| "Opens the Page Setup dialog allowing to setup how the graph will be "
+#| "printed"
+msgid "Opens the Page Setup dialog to allow graph printing to be setup"
+msgstr "ページ設定ダイアログを開いてグラフをどのように印刷するかを設定します"
+
+#: part/kgraphviewer_part.cpp:127
+msgid "Reload the current graph from file"
+msgstr "現在のグラフをファイルから再読み込みします"
+
+#: part/kgraphviewer_part.cpp:132
+#, fuzzy, no-c-format
+#| msgid "Zoom in by 10% the currently viewed graph"
+msgid "Zoom in by 10% on the currently viewed graph"
+msgstr "現在表示されているグラフを 10% 拡大します"
+
+#: part/kgraphviewer_part.cpp:137
+#, fuzzy, no-c-format
+#| msgid "Zoom out by 10% the currently viewed graph"
+msgid "Zoom out by 10% from the currently viewed graph"
+msgstr "現在表示されているグラフを 10% 縮小します"
+
+#: part/kgraphviewer_part.cpp:445
+#, fuzzy
+#| msgid "KGraphViewer"
+msgid "KGraphViewerPart"
+msgstr "KGraphViewer"
+
+#: part/kgraphviewer_part.cpp:446
+msgid "GraphViz dot files viewer"
+msgstr "GraphViz DOT ファイルビューア"
+
+#: part/kgraphviewer_part.cpp:448
+#, fuzzy
+#| msgid "(c) 2005-2006, Gael de Chalendar &lt;kleag@free.fr&gt;"
+msgid "(c) 2005-2006, Gaël de Chalendar &lt;kleag@free.fr&gt;"
+msgstr "(c) 2005-2006, Gael de Chalendar &lt;kleag@free.fr&gt;"
+
+#: part/KgvPageLayout.cpp:86
+#, fuzzy
+#| msgid "ISO A3"
+msgctxt "Page size"
+msgid "ISO A3"
+msgstr "ISO A3"
+
+#: part/KgvPageLayout.cpp:87
+#, fuzzy
+#| msgid "ISO A4"
+msgctxt "Page size"
+msgid "ISO A4"
+msgstr "ISO A4"
+
+#: part/KgvPageLayout.cpp:88
+#, fuzzy
+#| msgid "ISO A5"
+msgctxt "Page size"
+msgid "ISO A5"
+msgstr "ISO A5"
+
+#: part/KgvPageLayout.cpp:89
+#, fuzzy
+#| msgid "US Letter"
+msgctxt "Page size"
+msgid "US Letter"
+msgstr "US レター"
+
+#: part/KgvPageLayout.cpp:90
+#, fuzzy
+#| msgid "US Legal"
+msgctxt "Page size"
+msgid "US Legal"
+msgstr "US リーガル"
+
+#: part/KgvPageLayout.cpp:91
+#, fuzzy
+#| msgid "Screen"
+msgctxt "Page size"
+msgid "Screen"
+msgstr "スクリーン"
+
+#: part/KgvPageLayout.cpp:92
+#, fuzzy
+#| msgctxt "Custom size"
+#| msgid "Custom"
+msgctxt "Page size"
+msgid "Custom"
+msgstr "カスタム"
+
+#: part/KgvPageLayout.cpp:93
+#, fuzzy
+#| msgid "ISO B5"
+msgctxt "Page size"
+msgid "ISO B5"
+msgstr "ISO B5"
+
+#: part/KgvPageLayout.cpp:95
+#, fuzzy
+#| msgid "US Executive"
+msgctxt "Page size"
+msgid "US Executive"
+msgstr "US エグゼクティブ"
+
+#: part/KgvPageLayout.cpp:96
+#, fuzzy
+#| msgid "ISO A0"
+msgctxt "Page size"
+msgid "ISO A0"
+msgstr "ISO A0"
+
+#: part/KgvPageLayout.cpp:97
+#, fuzzy
+#| msgid "ISO A1"
+msgctxt "Page size"
+msgid "ISO A1"
+msgstr "ISO A1"
+
+#: part/KgvPageLayout.cpp:98
+#, fuzzy
+#| msgid "ISO A2"
+msgctxt "Page size"
+msgid "ISO A2"
+msgstr "ISO A2"
+
+#: part/KgvPageLayout.cpp:99
+#, fuzzy
+#| msgid "ISO A6"
+msgctxt "Page size"
+msgid "ISO A6"
+msgstr "ISO A6"
+
+#: part/KgvPageLayout.cpp:100
+#, fuzzy
+#| msgid "ISO A7"
+msgctxt "Page size"
+msgid "ISO A7"
+msgstr "ISO A7"
+
+#: part/KgvPageLayout.cpp:101
+#, fuzzy
+#| msgid "ISO A8"
+msgctxt "Page size"
+msgid "ISO A8"
+msgstr "ISO A8"
+
+#: part/KgvPageLayout.cpp:102
+#, fuzzy
+#| msgid "ISO A9"
+msgctxt "Page size"
+msgid "ISO A9"
+msgstr "ISO A9"
+
+#: part/KgvPageLayout.cpp:103
+#, fuzzy
+#| msgid "ISO B0"
+msgctxt "Page size"
+msgid "ISO B0"
+msgstr "ISO B0"
+
+#: part/KgvPageLayout.cpp:104
+#, fuzzy
+#| msgid "ISO B1"
+msgctxt "Page size"
+msgid "ISO B1"
+msgstr "ISO B1"
+
+#: part/KgvPageLayout.cpp:105
+#, fuzzy
+#| msgid "ISO B10"
+msgctxt "Page size"
+msgid "ISO B10"
+msgstr "ISO B10"
+
+#: part/KgvPageLayout.cpp:106
+#, fuzzy
+#| msgid "ISO B2"
+msgctxt "Page size"
+msgid "ISO B2"
+msgstr "ISO B2"
+
+#: part/KgvPageLayout.cpp:107
+#, fuzzy
+#| msgid "ISO B3"
+msgctxt "Page size"
+msgid "ISO B3"
+msgstr "ISO B3"
+
+#: part/KgvPageLayout.cpp:108
+#, fuzzy
+#| msgid "ISO B4"
+msgctxt "Page size"
+msgid "ISO B4"
+msgstr "ISO B4"
+
+#: part/KgvPageLayout.cpp:109
+#, fuzzy
+#| msgid "ISO B6"
+msgctxt "Page size"
+msgid "ISO B6"
+msgstr "ISO B6"
+
+#: part/KgvPageLayout.cpp:110
+#, fuzzy
+#| msgid "ISO C5"
+msgctxt "Page size"
+msgid "ISO C5"
+msgstr "ISO C5"
+
+#: part/KgvPageLayout.cpp:111
+#, fuzzy
+#| msgid "US Common 10"
+msgctxt "Page size"
+msgid "US Common 10"
+msgstr "US Common 10"
+
+#: part/KgvPageLayout.cpp:112
+#, fuzzy
+#| msgid "ISO DL"
+msgctxt "Page size"
+msgid "ISO DL"
+msgstr "ISO DL"
+
+#: part/KgvPageLayout.cpp:113
+#, fuzzy
+#| msgid "US Folio"
+msgctxt "Page size"
+msgid "US Folio"
+msgstr "US フォリオ"
+
+#: part/KgvPageLayout.cpp:114
+#, fuzzy
+#| msgid "US Ledger"
+msgctxt "Page size"
+msgid "US Ledger"
+msgstr "US レッジャー"
+
+#: part/KgvPageLayout.cpp:115
+#, fuzzy
+#| msgid "US Tabloid"
+msgctxt "Page size"
+msgid "US Tabloid"
+msgstr "US タブロイド"
+
+#: part/KgvPageLayoutDia.cpp:62
+msgid "Page Preview"
+msgstr "ページのプレビュー"
+
+#: part/KgvPageLayoutDia.cpp:279
+#, fuzzy
+#| msgid "Page Size && Margins"
+msgid "Page Size & Margins"
+msgstr "ページサイズと余白"
+
+#: part/KgvPageLayoutSize.cpp:67
+msgid "Unit:"
+msgstr "単位:"
+
+#: part/KgvPageLayoutSize.cpp:81
+#, kde-format
+msgid "All values are given in %1."
+msgstr "すべての値は %1 で与えられます。"
+
+#: part/KgvPageLayoutSize.cpp:86
+msgid "Page Size"
+msgstr "ページサイズ"
+
+#: part/KgvPageLayoutSize.cpp:95
+msgid "&Size:"
+msgstr "サイズ(&S):"
+
+#: part/KgvPageLayoutSize.cpp:116
+msgid "&Width:"
+msgstr "幅(&W):"
+
+#: part/KgvPageLayoutSize.cpp:127
+msgid "&Height:"
+msgstr "高さ(&H):"
+
+#: part/KgvPageLayoutSize.cpp:141
+msgid "Orientation"
+msgstr "方向"
+
+#: part/KgvPageLayoutSize.cpp:149
+msgid "&Portrait"
+msgstr "縦長(&P)"
+
+#: part/KgvPageLayoutSize.cpp:157
+msgid "La&ndscape"
+msgstr "横長(&N)"
+
+#: part/KgvPageLayoutSize.cpp:165
+msgid "Margins"
+msgstr "余白"
+
+#: part/KgvPageLayoutSize.cpp:378
+msgid "The page width is smaller than the left and right margins."
+msgstr "ページの幅が左右の余白より小さくなっています。"
+
+#: part/KgvPageLayoutSize.cpp:379 part/KgvPageLayoutSize.cpp:385
+msgid "Page Layout Problem"
+msgstr "ページのレイアウトの問題"
+
+#: part/KgvPageLayoutSize.cpp:384
+msgid "The page height is smaller than the top and bottom margins."
+msgstr "ページの高さが上下の余白より小さくなっています。"
+
+#: part/KgvUnit.cpp:53
+msgid "Millimeters (mm)"
+msgstr "ミリメートル (mm)"
+
+#: part/KgvUnit.cpp:55
+msgid "Centimeters (cm)"
+msgstr "センチメートル (cm)"
+
+#: part/KgvUnit.cpp:57
+msgid "Decimeters (dm)"
+msgstr "デシメートル (dm)"
+
+#: part/KgvUnit.cpp:59
+msgid "Inches (in)"
+msgstr "インチ (in)"
+
+#: part/KgvUnit.cpp:61
+msgid "Pica (pi)"
+msgstr "パイカ (pi)"
+
+#: part/KgvUnit.cpp:63
+msgid "Didot (dd)"
+msgstr "ディドー (dd)"
+
+#: part/KgvUnit.cpp:65
+msgid "Cicero (cc)"
+msgstr "シセロ (cc)"
+
+#: part/KgvUnit.cpp:67
+msgid "Points (pt)"
+msgstr "ポイント (pt)"
+
+#: part/KgvUnit.cpp:69
+#, fuzzy
+#| msgid "Error!"
+msgid "Error."
+msgstr "エラー!"
+
+#: part/pannerview.cpp:65
+#, fuzzy
+#| msgid ""
+#| "View of The complete graph. Click and drag to move this visible part."
+msgid "View of the complete graph. Click and drag to move the visible part."
+msgstr "グラフの概観図です。表示域を移動するにはクリックしてドラッグします。"
+
+#: part/pannerview.cpp:66
+#, fuzzy
+#| msgid ""
+#| "<h1>View of The complete graph</h1><p>Single click out of the red square "
+#| "to move the center of his one at the mouse position.</p><p>Click in the "
+#| "red square and drag the mouse and the red square will follow the movement."
+#| "</p>"
+msgid ""
+"<h1>View of the Complete Graph</h1><p>Single clicking somewhere without the "
+"red square will move the center of the view to where the mouse was clicked.</"
+"p><p>Clicking and dragging within the red square will cause the view to "
+"follow the movement.</p>"
+msgstr ""
+"<h1>グラフの概観図</h1><p>赤枠の外をクリックすると赤枠の中心がマウスの位置に"
+"移動します。</p><p>赤枠の中をクリックしてドラッグすると赤枠がマウスに従って移"
+"動します。</p>"
+
+#: part/simpleprintingcommand.cpp:102
+msgid "Print Preview"
+msgstr "印刷プレビュー"
+
+#: part/simpleprintingengine.cpp:222 part/simpleprintpreviewwindow.cpp:229
+#: part/simpleprintpreviewwindow.cpp:248
+#, kde-format
+msgctxt "Page (number) of (total)"
+msgid "Page %1 of %2"
+msgstr "ページ %1 / %2"
+
+#: part/simpleprintingengine.cpp:226
+#, kde-format
+msgid "Page %1"
+msgstr "ページ %1"
+
+#: part/simpleprintingpagesetup.cpp:109
+msgid "Print Preview..."
+msgstr "印刷プレビュー..."
+
+#: part/simpleprintingpagesetup.cpp:114
+msgid "Changes font for title text."
+msgstr "タイトルのフォントを変更します。"
+
+#: part/simpleprintingpagesetup.cpp:122
+#, kde-format
+msgid "<qt><h2>Page Setup for Printing Graph \"%1\"</h2></qt>"
+msgstr "<qt><h2>グラフ “%1” を印刷するためのページ設定</h2></qt>"
+
+#: part/simpleprintingpagesetup.cpp:130
+msgid "Saves settings for this setup as default."
+msgstr "この設定をデフォルトとして保存します。"
+
+#: part/simpleprintingpagesetup.cpp:133
+msgid "Adds date and time to the header."
+msgstr "ヘッダに日付と時刻を追加します。"
+
+#: part/simpleprintingpagesetup.cpp:134
+msgid "Adds page numbers to the footer."
+msgstr "フッタにページ番号を追加します。"
+
+#: part/simpleprintingpagesetup.cpp:135
+msgid "Adds table borders."
+msgstr "テーブルの枠線を追加します。"
+
+#: part/simpleprintingpagesetup.cpp:143
+msgid "Changes page size and margins."
+msgstr "ページサイズと余白を変更します。"
+
+#: part/simpleprintingpagesetup.cpp:214
+msgid "Chosen font looks like this"
+msgstr "選択されたフォントのプレビューです"
+
+#: part/simpleprintingpagesetup.cpp:234
+msgid "Portrait"
+msgstr "縦長"
+
+#: part/simpleprintingpagesetup.cpp:234
+msgid "Landscape"
+msgstr "横長"
+
+#: part/simpleprintingpagesetup.cpp:235
+msgid "margins:"
+msgstr "余白:"
+
+#: part/simpleprintpreviewwindow.cpp:71
+#, kde-format
+msgid "%1 - Print Preview - %2"
+msgstr "%1 - 印刷プレビュー - %2"
+
+#: part/simpleprintpreviewwindow.cpp:87
+msgid "&Page setup"
+msgstr "ページ設定(&P)"
+
+#: part/simpleprintpreviewwindow.cpp:129
+msgid "Previous Page"
+msgstr "前のページ"
+
+#: part/simpleprintpreviewwindow.cpp:140
+msgid "Next Page"
+msgstr "次のページ"

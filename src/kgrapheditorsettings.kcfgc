@@ -1,0 +1,5 @@
+File=kgrapheditorsettings.kcfg
+ClassName=KGraphEditorSettings
+Singleton=true 
+Mutators=true
+NameSpace=

@@ -1,0 +1,27 @@
+Basic Installation
+==================
+
+   These are generic installation instructions. It supposes that you have a
+   working KDE4 developpement environment. See the following URL if it is not
+   the case:
+   http://techbase.kde.org/index.php?title=Getting_Started
+
+   This package uses the cmake.
+
+   In the following, let <sourcedir> be the directory containing the present
+   file.
+
+  1. Create a build directory. Let us refer to it as <builddir>. move to it:
+     cd <builddir>
+
+  2. Type `cmake -DCMAKE_INSTALL_PREFIX=$KDEDIR <sourcedir>' to configure the 
+     package.
+
+  3. Move to the src subdirectory:
+     cd src
+
+  4. Type `make' to build the package.
+ 
+  5. Type `make install' to install the programs and any data files and
+     documentation. If you have not write permission to the  KDE installation
+     directory, you should become root before.
