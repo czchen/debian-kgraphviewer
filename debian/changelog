@@ -1,3 +1,11 @@
+kgraphviewer (4:2.1.1-1) UNRELEASED; urgency=medium
+
+  * Backport ubuntu package (Closes: #675033)
+  * Bump Standard-Version to 3.9.5
+  * Bump compat level to 9
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@gmail.com>  Wed, 05 Feb 2014 20:56:02 +0800
+
 kgraphviewer (4:2.1.1-0ubuntu2) quantal; urgency=low
 
   * Build with boost1.49
